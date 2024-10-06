@@ -104,7 +104,7 @@ app.get('/api/prices', verifyToken, (req, res) => {
 app.get('/api/settings', verifyToken, (req, res) => {
     res.json({
         success: true,
-        myContent: 'Settings page'
+        myContent: 'Settings page ----------->> '
     });
 });
 
